@@ -25,7 +25,7 @@ try:
 
     def onelineMatrix(matrix):
         for i in range(len(matrix)):
-            for j in range(len(matrix[i])):
+            for j in range(len(matrix[i])): # как понять len(matrix[i]) ???  это длина элемента matrix[i] ???
                 MatrLine.append(matrix[i][j])
 
     def sort_onelineMatrix(MatrLine):
